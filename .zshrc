@@ -43,6 +43,30 @@ POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND='green'
 POWERLEVEL9K_CONTEXT_TEMPLATE="%F{cyan}%n%f"
 POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND='black'
 
+# OS segment
+POWERLEVEL9K_OS_ICON_BACKGROUND='black'
+POWERLEVEL9K_LINUX_ICON="%F{cyan}\uf303 %F{white}arch%F{cyan}linux%f"
+
+# VCS icons
+POWERLEVEL9K_VCS_GIT_ICON=$''
+POWERLEVEL9K_VCS_GIT_GITHUB_ICON=$''
+POWERLEVEL9K_VCS_STAGED_ICON=$'\uf055'
+POWERLEVEL9K_VCS_UNSTAGED_ICON=$'\uf421'
+POWERLEVEL9K_VCS_UNTRACKED_ICON=$'\uf00d'
+POWERLEVEL9K_VCS_INCOMING_CHANGES_ICON=$'\uf0ab '
+POWERLEVEL9K_VCS_OUTGOING_CHANGES_ICON=$'\uf0aa '
+
+# VCS colours
+POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='black'
+POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='red'
+POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='black'
+POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND='yellow'
+POWERLEVEL9K_VCS_CLEAN_BACKGROUND='black'
+POWERLEVEL9K_VCS_CLEAN_FOREGROUND='green'
+
+# VCS CONFIG
+POWERLEVEL9K_SHOW_CHANGESET=false
+
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -134,4 +158,6 @@ alias cls="clear"
 alias search="pacman -Q"
 alias delete="sudo pacman -Rsn"
 alias mydevil='ssh michalkoceba@s18.mydevil.net'
-alias ls='ls --color=auto'
+alias dependencydelete="pacman -Rscn"
+sudo pacman -Suu
+

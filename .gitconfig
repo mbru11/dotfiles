@@ -1,0 +1,11 @@
+[user]
+	name = Michal Koceba
+	email = michal.koceba@gmail.com
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -20
+[core]
+	autocrlf = input
+[diff]
+    	tool = default-difftool
+[difftool "default-difftool"]
+    	cmd = code --wait --diff $LOCAL $REMOTE

@@ -178,5 +178,3 @@ alias search="pacman -Q"
 alias delete="sudo pacman -Rsn"
 alias mydevil='ssh michalkoceba@s18.mydevil.net'
 alias dependencydelete="pacman -Rscn"
-sudo pacman -Suu
-

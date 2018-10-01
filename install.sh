@@ -5,3 +5,4 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 
 ln -sv ~/.dotfiles/.gitconfig ~
 ln -sv ~/.dotfiles/.zshrc ~
+ln -sv ~/.dotfiles/.xinitrc ~

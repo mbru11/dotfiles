@@ -178,7 +178,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5
 bindsym Print exec scrot
 
 # Lock
-bindsym $mod+Shift+x exec ~/.ditfiles/lock.sh
+bindsym $mod+Shift+x exec ~/.dotfiles/lock.sh
 
 bindsym $mod+Shift+Return exec i3-sensible-terminal -name "floating_term"
 

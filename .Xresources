@@ -1,0 +1,78 @@
+! Solarized https://ethanschoonover.com/solarized/
+
+#define yellow            #b58900
+#define orange            #cb4b16
+#define red               #dc322f
+#define magenta           #d33682
+#define violet            #6c71c4
+#define blue              #268bd2
+#define cyan              #2aa198
+#define green             #859900
+
+#define background0       #657b83
+#define background1       #586e75
+#define background2       #073642
+#define background3       #002b36
+
+#define foreground0       #839496
+#define foreground1       #93a1a1
+#define foreground2       #eee8d5
+#define foreground3       #fdf6e3
+
+
+! URxvt Settings
+
+Xft*dpi:		 96
+Xft*antialias:			true
+Xft*rgba:		          rgb
+Xft*hinting:		      true
+Xft*hintstyle:		      hintslight
+
+URxvt*depth:		      32
+URxvt*transparent: 	      false
+
+URxvt*scrollBar:	      false
+
+URxvt*intensityStyles:    false
+
+URxvt*internalBorder:     0
+URxvt*externalBorder:     0
+
+URxvt*cursorBlink:        true
+
+URxvt*allow_bold:	      true
+URxvt*font:		      xft:DejaVu Sans Mono for Powerline:pixelsize=14
+URxvt*boldFont:		  xft:DejaVu Sans Mono for Powerline:bold:pixelsize=14
+
+
+! Colors
+
+URxvt*background:         [85]background3
+
+*background:              background3
+*foreground:              foreground1
+
+*fading:                  40
+
+*fadeColor:               background3
+*cursorColor:             foreground1
+*pointerColorBackground:  background1
+*pointerColorForeground:  foreground1
+
+*color0:                  background2
+*color1:                  red
+*color2:                  green
+*color3:                  yellow
+!*color4:                  blue
+*color4:                  cyan
+*color5:                  magenta
+*color6:                  cyan
+*color7:                  foreground2
+*color8:                  background3
+*color9:                  orange
+*color10:                 background1
+*color11:                 background0
+*color12:                 foreground0
+*color13:                 violet
+*color14:                 foreground1
+*color15:                 foreground3

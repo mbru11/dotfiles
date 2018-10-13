@@ -98,8 +98,8 @@ bindsym Super_L exec --no-startup-id rofi -show run
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1:"
 set $ws2 "2:"
-set $ws3 "3:"
-set $ws4 "4:"
+set $ws3 "3:"
+set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
@@ -184,6 +184,9 @@ bindsym $mod+Shift+Return exec i3-sensible-terminal -name "floating_term"
 
 exec chromium
 exec code
+exec viber
+exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
+exec --no-startup-id redshift-gtk
 
 # Compton
 exec_always compton
@@ -201,6 +204,7 @@ for_window [class="URxvt" instance="floating_term$"] floating toggle
 
 assign [class="Code"] $ws2
 assign [class="Chromium"] $ws3
+assign [class="Viber"] $ws4
 
 # ======== i3 Theme ========
 

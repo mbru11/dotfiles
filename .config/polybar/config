@@ -88,7 +88,7 @@ tray-position = right
 tray-detached = false
 ;tray-maxsize = 16
 tray-padding = 2
-;tray-transparent = true
+tray-transparent = true
 ;tray-offset-x = 0
 ;tray-offset-y = 0
 ;tray-scale = 1.0
@@ -287,6 +287,17 @@ label = %date% %time%
 
 [module/alsa]
 type = internal/alsa
+
+master-soundcard = default
+speaker-soundcard = default
+headphone-soundcard = default
+master-mixer = Master
+speaker-mixer = Speaker
+headphone-mixer = Headphone
+headphone-id = 14
+
+mapped = true
+
 interval = 0.1
 
 format-volume = <ramp-volume> <label-volume>
@@ -298,6 +309,9 @@ label-muted = muted
 ramp-volume-0 = " "
 ramp-volume-1 = " "
 ramp-volume-2 = " "
+
+ramp-headphones-0 = 
+ramp-headphones-1 = 
 
 [module/battery]
 type = internal/battery

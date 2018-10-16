@@ -14,3 +14,6 @@ ln -sv ~/.dotfiles/.config/polybar/launch.sh ~/.config/polybar/launch.sh
 ln -sv ~/.dotfiles/.config/i3lock-fancier/config.ini ~/.config/i3lock-fancier/config.ini
 ln -sv ~/.dotfiles/.config/rofi/config.rasi ~/.config/rofi/config.rasi
 ln -sv ~/.dotfiles/.config/rofi/solar.rasi ~/.config/rofi/solar.rasi
+
+git clone https://github.com:3ximus/aerial-sddm-theme.git ~/aerial-sddm-theme
+sudo mv ~/aerial-sddm-theme /usr/share/sddm/themes

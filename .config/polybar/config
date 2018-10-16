@@ -92,7 +92,7 @@ tray-transparent = true
 ;tray-offset-x = 0
 ;tray-offset-y = 0
 ;tray-scale = 1.0
-tray-background = #0063ff
+tray-background = {colors.background}
 
 ;wm-restack = i3
 

@@ -80,7 +80,7 @@ font-3 = Font Awesome 5 Brands:style=Regular:size=10;0
 modules-left = i3
 modules-center = playing
 ;modules-right = filesystem backlight-acpi alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
-modules-right = backlight-acpi alsa pulseaudio memory cpu wlan eth battery temperature date powermenu
+modules-right = xkeyboard backlight-acpi alsa pulseaudio memory cpu wlan eth battery temperature date powermenu
 
 separator = |
 

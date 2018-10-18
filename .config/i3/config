@@ -182,6 +182,8 @@ bindsym $mod+Shift+x exec ~/.dotfiles/lock.sh
 
 bindsym $mod+Shift+Return exec i3-sensible-terminal -name "floating_term"
 
+bindsym $mod+Shift+s exec --no-startup-id ~/.dotfiles/monitor.sh
+
 exec chromium
 exec code
 exec viber
@@ -199,6 +201,8 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 exec i3-sensible-terminal  -name "floating_term"
 for_window [class="URxvt" instance="floating_term$"] floating toggle
+
+exec --no-startup-id setxkbmap pl,ru -option 'grp:ctrl_shift_toggle'
 
 # ======= Workspace Setup =======
 
